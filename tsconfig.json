@@ -1,0 +1,25 @@
+{
+  "angularCompilerOptions": {
+    "googleClosureOutput": true
+  },
+  "compilerOptions": {
+    "charset": "utf-8",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "lib": ["dom", "es6"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

@@ -1,0 +1,42 @@
+{
+  "extends": ["tslint:latest"],
+  "rulesDirectory": ["tslint-consistent-codestyle"],
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "max-classes-per-file": false,
+    "no-var-requires": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "ordered-imports": false,
+    "quotemark": [true, "single", "jsx-single", "avoid-escape", "avoid-template"],
+    "interface-name": false,
+    "member-access": [true, "no-public"],
+    "semicolon": false,
+    "object-literal-sort-keys": false,
+
+    "naming-convention": true,
+    "no-collapsible-if": true,
+    "no-return-undefined": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-var-before-return": true,
+    "prefer-const-enum": true,
+    "prefer-while": true
+  },
+  "jsRules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "max-classes-per-file": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single", "jsx-single", "avoid-escape", "avoid-template"],
+    "interface-name": false,
+    "semicolon": false,
+    "object-literal-sort-keys": false,
+
+    "naming-convention": true,
+    "no-collapsible-if": true,
+    "no-return-undefined": true,
+    "no-unused-expression": true,
+    "no-var-before-return": true,
+    "prefer-const-enum": true,
+    "prefer-while": true
+  }
+}
